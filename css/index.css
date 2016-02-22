@@ -1,0 +1,1088 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a,em {
+    text-decoration: none;
+    font-style: normal;
+}
+.headerLayout{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #2f2f2f;
+}
+.headerTop{
+    width: 1000px;
+    margin:0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+.headerTop ul{
+    float: right;
+}
+.headerTop ul li{
+    float: left;
+}
+.headerTop a{
+    font-size: 12px;
+    color: #b9b4b8;
+    padding-right: 20px; ;
+}
+.headerTop a:hover{
+    color: #0d9137
+}
+.headerTop a em{
+    color: #908a7a;
+    padding-right: 15px;
+}
+
+.header{
+    width: 1000px;
+    height: 114px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+}
+.header h1{
+    height: 114px;
+    line-height: 114px;
+    float: left;
+    padding-left: 60px;
+    background: url("../images/note.png") no-repeat 0px 25px;
+
+}
+.header .topList{
+
+    padding-top: 0px;
+    margin-left: 30px;
+    /*overflow: hidden;*/
+    /*zoom: 1;*/
+}
+.header .topList li{
+    float: left;
+}
+.header .topList .topNav,.header .topList .topNavOther{
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    padding:40px 20px 20px;
+    margin-right: 10px;
+}
+.header .topList .topNav{
+    border-top: 7px solid transparent;
+}
+.header .topList .topNav a{
+    color: #868686;
+}
+.header .topList .topNavOther{
+    color: #fff;
+    background: #0dad51;
+    margin-left: 60px;
+    border-top: 7px solid #0dad51;
+    padding: 35px 15px 10px;
+}
+.header .topList li ul{
+    overflow: hidden;
+    zoom: 1;
+}
+.header .topList li ul li{
+    float: left;
+    font-size: 16px;
+    padding: 18px;
+    /*position: relative;*/
+}
+.header .topList li:hover ul{
+    display: block;
+}
+.header .topList li ul {
+    font-size: 14px;
+    position: absolute;
+    top: 70px;
+    left: 210px;
+    display: none;
+}
+.header .topList .topNav:hover{
+    border-top: 7px solid #0dad51;
+}
+.header .topList li ul li a{
+    color: #6e6e6e;
+}
+.header .topList li ul li i{
+    border: 1px solid #d5c8c8;
+    height: 12px;
+    position: absolute;
+    right: 60px;
+    top: 20px;
+}
+.header input[type="text"]{
+    float: right;
+    width: 230px;
+    height:30px;
+    margin-top: 40px;
+
+}
+
+.headerBot{
+    border: 1px solid #dbdbdb;
+}
+
+.main{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.mainLeft{
+    float: left;
+    width: 720px;
+}
+.mainLeft .left1{
+    width:700px;
+    height: 280px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.mainLeft .left1 .banner{
+    width: 3600px;
+    position: absolute;
+    left: 0;
+}
+.left1 .banner li{
+    list-style: none;
+    float:left;
+}
+.left1 .tip{
+    width: 57px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0,0,0,0.1);
+
+}
+.left1 .banner li img{
+    border: none;
+}
+.left1 .tip li{
+    width: 8px;
+    height: 8px;
+    border-radius:50%;
+    background: #999;
+    float: left;
+    margin: 5px 0 5px 5px ;
+    cursor: pointer;
+}
+.left1 .tip li.select{
+    background: #fff;
+}
+
+
+.online{
+    height: 325px;
+    margin-top: 30px;
+    overflow: hidden;
+    zoom: 1;
+}
+.online h2{
+    font-size: 25px;
+    height:40px;
+    line-height: 40px;
+    padding-right: 14px;
+}
+.online h2 a{
+    font-size: 18px;
+    color: #49ab73;
+    padding-bottom: 0;
+    padding-left: 10px;
+}
+.online h2 i {
+
+    height: 30px;
+    border: 2.5px solid #ff0000;
+    margin-right: 15px;
+}
+.online .page{
+    float: right;
+}
+
+.online .onlineList{
+    width: 720px;
+    overflow: hidden;
+    zoom: 1;
+}
+.online .onlineList li{
+    margin: 0 14px 10px 0;
+    float: left;
+    position: relative;
+}
+.online .onlineList img {
+    width: 130px;
+    height: 130px;
+    border: none;
+}
+.online .onlineList .pic .start{
+    width: 25px;
+    height: 25px;
+    background: url("../images/start1.png") no-repeat 0 0;
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+    display: none;
+}
+.online .onlineList li .pic:hover span{
+    display: block;
+}
+.online .onlineList .note{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 130px;
+    /*height: 40px;*/
+    /*opacity: 0.5;*/
+    /*filter: alpha(opacity=50);*/
+    background: rgba(49,49,49,.7);
+}
+.online .onlineList .note h4{
+    display:block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    padding-left: 5px;
+    color: #1abb5b;
+}
+.online .onlineList .note span{
+    display:block;
+    height: 23px;
+    line-height: 23px;
+    font-size: 12px;
+    text-decoration: none;
+    padding-left: 5px;
+    color: #ffffff;
+}
+
+.mainLeft .MV{
+    /*height: 400px;*/
+    margin-top: 30px;
+}
+.MV h2{
+    font-size: 25px;
+    height:40px;
+    line-height: 40px;
+    padding-right: 14px;
+}
+.MV h2 a{
+    font-size: 18px;
+    color: #49ab73;
+    padding-bottom: 0;
+    padding-left: 10px;
+}
+.MV h2 i {
+    height: 30px;
+    border: 2.5px solid #ff0000;
+    margin-right: 15px;
+}
+.MV .MVList{
+    width: 720px;
+    overflow: hidden;
+    zoom: 1;
+}
+.MV .MVList li{
+    margin: 0 20px 10px 0;
+    float: left;
+
+}
+.MV .MVList li a{
+    position: relative;
+}
+.MV .MVList li a .start{
+    width: 25px;
+    height: 25px;
+    background: url("../images/start1.png");
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: none;
+}
+.MV .MVList li a:hover span{
+    display: block;
+}
+.MV .MVList img{
+    width: 160px;
+    height: 90px;
+    border: none;
+}
+.MV .MVList .note{
+    position: relative;
+    width: 160px;
+    /*height: 40px;*/
+    /*opacity: 0.5;*/
+    /*filter: alpha(opacity=50);*/
+    /*background: rgba(49,49,49,.7);*/
+
+
+}
+.MV .MVList .note h4{
+    display:block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.MV .MVList .note h4 a{
+    color: #515151;
+}
+.MV .MVList .note h4 .MVName{
+    color: #1abb5b;
+}
+.MV .MVList .note p{
+    display:block;
+    height: 23px;
+    line-height: 23px;
+    font-size: 12px;
+    text-decoration: none;
+    padding-left: 5px;
+    color: #8b8b8b;
+
+}
+.MV .MVList .note span{
+    display:block;
+    height: 23px;
+    line-height: 23px;
+    font-size: 12px;
+    text-decoration: none;
+    padding-left: 5px;
+    color: #8b8b8b;
+    overflow: hidden;
+    zoom: 1;
+
+}
+.MV .MVList .note i{
+    float: left;
+    position: absolute;
+    bottom: 8px;
+    width: 0;
+    height: 0;
+    border: 5px solid #c0c0c0;
+    border-color: transparent transparent transparent #c0c0c0;
+
+}
+.MV .MVList .note .times{
+    font-size: 10px;
+    color: #c0c0c0;
+    float: left;
+    padding-left: 15px;
+}
+.MV .MVList .note .date{
+    font-size: 10px;
+    color: #c0c0c0;
+    float: right;
+}
+
+
+.mainLeft .recommend{
+    /*height: 480px;*/
+    margin-top: 30px;
+    overflow: hidden;
+    zoom: 1;
+}
+.mainLeft .recommend .reNew{
+    width: 350px;
+    /*height: 480px;*/
+    float: left;
+    padding-right: 17px;
+    overflow: hidden;
+    zoom: 1;
+}
+.reNew .newTop{
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+}
+.reNew .newTop p{
+    display: inline-block;
+    float: left;
+    font-size: 25px;
+    margin: 0 10px;
+
+}
+.reNew .newTop p i{
+    width: 0;
+    height: 30px;
+    border-left: 5px solid #0dad51;
+    position: absolute;
+    top: 5px;
+    left: 0;
+
+}
+.reNew .newTop span img{
+    margin-top: 5px;
+}
+.reNew .newTop ul{
+    float: right;
+}
+.reNew .newTop .topList li{
+    float: left;
+    position: relative;
+}
+.reNew .newTop .topList li a{
+    font-size: 12px;
+    color: #0dad51;
+    padding:0 7px;
+}
+.reNew .newTop .topList li .first{
+    color: #333333;
+}
+.reNew .newTop .topList li a i{
+    width: 0;
+    height: 12px;
+    border-left: 1px solid #d8d8d8;
+    position: absolute;
+    left: 36px;
+    top: 15px;
+}
+.reNew .newTop{
+    position: relative;
+}
+.reNew .newTop p a.start{
+    width:32px ;
+    height: 32px;
+    background: url("../images/icon_sprite.png")no-repeat 2px -62px;
+    position: absolute;
+    top: 2px;
+    left: 115px;
+}
+.reNew .newTop p a.start:hover{
+    background: url("../images/icon_sprite.png")no-repeat -30px -62px;
+}
+.reNew .newTop p a.add{
+    width:32px ;
+    height: 32px;
+    background: url("../images/icon_sprite.png")no-repeat -55px -285px;
+    position: absolute;
+    top: 5px;
+    left: 155px;
+}
+.reNew .newTop p a.add:hover{
+    background: url("../images/icon_sprite.png")no-repeat -86px -285px;
+}
+.reNew .newList ul{
+    padding-top: 10px;
+}
+.reNew .newList ul li{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dashed transparent;
+    position: relative;
+}
+.reNew .newList ul li:hover{
+    border-bottom: 1px dashed #666;
+}
+.reNew .newList ul li .icon1{
+    width: 13px;
+    height: 15px;
+    background: url("../images/icon_sprite.png") no-repeat -2px -183px;
+    position: absolute;
+    top: 12px;
+    right: 80px;
+    display: none;
+}
+.reNew .newList ul li .icon2{
+    width: 13px;
+    height: 15px;
+    background: url("../images/icon_sprite.png") no-repeat -43px -183px;
+    position: absolute;
+    top: 12px;
+    right: 60px;
+    display: none;
+}
+.reNew .newList ul li .icon3{
+    width: 13px;
+    height: 15px;
+    background: url("../images/icon_sprite.png") no-repeat -15px -183px;
+    position: absolute;
+    top: 12px;
+    right: 40px;
+    display: none;
+}
+.reNew .newList ul li .icon4{
+    width: 13px;
+    height: 15px;
+    background: url("../images/icon_sprite.png") no-repeat -57px -211px;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    display: none;
+}
+.reNew .newList ul li .icon5{
+    width: 13px;
+    height: 15px;
+    background: url("../images/icon_sprite.png") no-repeat -28px -183px;
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    display: none;
+}
+.reNew .newList ul li:hover .icon1,.reNew .newList ul li:hover .icon2,.reNew .newList ul li:hover .icon3,.reNew .newList ul li:hover .icon4,.newList ul li:hover .icon5{
+
+    display: block;
+}
+.reNew .newList ul li a{
+    font-size: 15px;
+    color: #515151;
+}
+.reNew .newList ul li a.listName{
+    color: #0dad51;
+}
+
+.mainLeft .recommend .reHot{
+    width: 340px;
+    border-left: 1px dashed #e5e5e5;
+    float: left;
+}
+.reHot .hotTop{
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+}
+.reHot .hotTop p{
+    display: inline-block;
+    float: left;
+    font-size: 25px;
+    margin: 0 10px;
+
+}
+.reHot .hotTop p i{
+    width: 0;
+    height: 30px;
+    border-left: 5px solid #0dad51;
+    position: absolute;
+    top: 5px;
+    left: 0;
+
+}
+.reHot .hotTop span img{
+    margin-top: 5px;
+}
+.reHot .hotTop{
+    position: relative;
+}
+.reHot .hotTop p a.start{
+    width:32px ;
+    height: 32px;
+    background: url("../images/icon_sprite.png")no-repeat 3px -60px;
+    position: absolute;
+    top: 2px;
+    left: 115px;
+}
+.reHot .hotTop p a.start:hover{
+    background: url("../images/icon_sprite.png")no-repeat -29px -60px;
+}
+.reHot .hotTop p a.add{
+    width:32px ;
+    height: 32px;
+    background: url("../images/icon_sprite.png")no-repeat -55px -285px;
+    position: absolute;
+    top: 5px;
+    left: 155px;
+}
+.reHot .hotTop p a.add:hover{
+    background: url("../images/icon_sprite.png")no-repeat -86px -285px;
+}
+.reHot .hotList ul{
+    padding-top: 10px;
+}
+.reHot .hotList ul li{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dashed transparent;
+    position: relative;
+}
+.reHot .hotList ul li:hover{
+    border-bottom: 1px dashed #666;
+}
+.reHot .hotList ul li .icon1{
+    width: 13px;
+    height: 15px;
+    background: url("../images/icon_sprite.png") no-repeat -2px -183px;
+    position: absolute;
+    top: 12px;
+    right: 80px;
+    display: none;
+}
+.reHot .hotList ul li .icon2{
+    width: 13px;
+    height: 15px;
+    background: url("../images/icon_sprite.png") no-repeat -43px -183px;
+    position: absolute;
+    top: 12px;
+    right: 60px;
+    display: none;
+}
+.reHot .hotList ul li .icon3{
+    width: 13px;
+    height: 15px;
+    background: url("../images/icon_sprite.png") no-repeat -15px -183px;
+    position: absolute;
+    top: 12px;
+    right: 40px;
+    display: none;
+}
+.reHot .hotList ul li .icon4{
+    width: 13px;
+    height: 15px;
+    background: url("../images/icon_sprite.png") no-repeat -57px -211px;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    display: none;
+}
+.reHot .hotList ul li .icon5{
+    width: 13px;
+    height: 15px;
+    background: url("../images/icon_sprite.png") no-repeat -28px -183px;
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    display: none;
+}
+.reHot .hotList ul li:hover .icon1,.reHot .hotList ul li:hover .icon2,.reHot .hotList ul li:hover .icon3,.reHot .hotList ul li:hover .icon4,.reHot .hotList ul li:hover .icon5{
+
+    display: block;
+}
+.reHot .hotList ul li a{
+    font-size: 15px;
+    color: #515151;
+}
+.reHot .hotList ul li a.listName{
+    color: #0dad51;
+}
+
+.mainLeft .choose{
+    width: 720px;
+    float: left;
+    margin-top: 15px;
+}
+.choose .chooseTop{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    zoom: 1;
+}
+.choose .chooseTop i{
+    width: 0;
+    height: 30px;
+    margin-top: 5px;
+    border-left: 5px solid #f3508d;
+    float: left;
+}
+.choose .chooseTop h2{
+    font-size: 25px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.chooseList{
+    margin-top: 15px;
+    overflow:hidden;
+    zoom: 1;
+}
+.chooseList li{
+    width: 130px;
+    float: left;
+    margin: 0px 15px 20px 0;
+}
+.chooseList .picLeft{
+    width: 270px;
+    height: 345px;
+    float: left;
+    margin-right: 15px;
+}
+.chooseList .picLeft span{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+}
+.chooseList .picLeft span a{
+    font-size: 18px;
+    color:#0c8f44;
+    
+}
+.chooseList .picLeft p{
+    width: 100%;
+    height: 23px;
+    line-height: 23px;
+    font-size: 14px;
+    color: #8b8b8b;
+
+}
+.chooseList .picRight span{
+    width: 130px;
+    height: 23px;
+    line-height: 23px;
+
+}
+.chooseList .picRight span a{
+    font-size: 14px;
+    color:#0c8f44;
+}
+
+.mainRight{
+    width: 220px;
+    float: right;
+
+}
+.mainRight .entry{
+    height: 120px;
+    margin-top: 20px;
+    position: relative;
+    border-bottom: 1px solid #cccccc;
+    
+}
+.mainRight .entry span{
+    width: 220px;
+    height: 37px;
+    background: url("../images/findMore.png")no-repeat 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mainRight .entry input[type="button"]{
+    width: 170px;
+    height: 45px;
+    background: #ffa200;
+    border: none;
+    position:absolute;
+    top :55px;
+    left: 25px;
+    /*background: url("../images/button.png") no-repeat 0 0;*/
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+
+.mainRight .pic2{
+    margin-top: 20px;
+}
+
+
+.mainRight .peak{
+    height: 345px;
+    margin-top: 20px;
+    border-bottom:1px dashed #666;
+    position: relative;
+    overflow: hidden;
+    zoom: 1;
+}
+.mainRight .peak p{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    position: relative;
+}
+.peak .start{
+    width: 30px;
+    height: 30px;
+    background: url("../images/icon_sprite.png") no-repeat 0 -64px;
+    position: absolute;
+    left: 70px;
+    top: 0;
+}
+.peak .start:hover {
+    background: url("../images/icon_sprite.png") no-repeat -30px -64px;
+}
+.peak .add{
+    width: 30px;
+    height: 30px;
+    background: url("../images/icon_sprite.png") no-repeat -56px -285px;
+    position: absolute;
+    left: 110px;
+    top: 0;
+}
+.peak .add:hover{
+    background: url("../images/icon_sprite.png") no-repeat -88px -285px;
+}
+.peak .peakNav{
+    overflow: hidden;
+    zoom: 1;
+}
+.peak .peakNav .topList{
+    float: left;
+
+}
+.peak .peakNav .topList a{
+    font-size: 12px;
+    padding: 10px 7px;
+    color: #0c8f44;]
+    overflow: hidden;
+    zoom: 1;
+
+}
+.peak .peakNav .popular a{
+    font-size: 14px;
+    padding: 10px 7px 10px 0px;
+    color: #000;
+    font-weight: bold;
+}
+.peak .peakNav .topList .list{
+    width: 220px;
+    position: absolute;
+    top: 65px;
+    left: 40px;
+
+}
+.peak .peakNav .list li{
+    width: 180px;
+    overflow: hidden;
+    zoom: 1;
+}
+.peak .peakNav .list li a{
+    font-size: 12px;
+}
+.peak .peakNav .list img{
+    padding-right: 10px;
+    float: left;
+}
+.peak .peakNav .list li .listName{
+    color: #0c8f44;
+    float: left;
+}
+.peak .peakNav .list li a{
+    padding: 5px 0;
+}
+.peak .peakNav .list li .player{
+    color: #515151;
+    float: right;
+}
+.peak .peakNav .list li .firstL{
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #ff7900;
+}
+.peak .peakNav .list li .firstR{
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100px;
+    height: 25px;
+    line-height: 35px;
+    float: left;
+}
+.peak .peakNav .list .number1{
+    width: 35px;
+    height: 20px;
+    background: url("../images/icon_sprite.png") no-repeat -165px -225px;
+    position: absolute;
+    top: 10px;
+    left: -40px;
+}
+.peak .peakNav .list .number2{
+    width: 15px;
+    height: 10px;
+    background: url("../images/icon_sprite.png") no-repeat -165px -285px;
+    position: absolute;
+    top: 57px;
+    left: -40px;
+}
+.peak .peakNav .list .number3{
+    width: 15px;
+    height: 10px;
+    background: url("../images/icon_sprite.png") no-repeat -165px -309px;
+    position: absolute;
+    top: 80px;
+    left: -40px;
+}
+.peak .peakNav .list .number4{
+    width: 15px;
+    height: 10px;
+    background: url("../images/icon_sprite.png") no-repeat -165px -332px;
+    position: absolute;
+    top: 104px;
+    left: -40px;
+}
+.peak .peakNav .list .number5{
+    width: 15px;
+    height: 10px;
+    background: url("../images/icon_sprite.png") no-repeat -165px -356px;
+    position: absolute;
+    top: 128px;
+    left: -40px;
+}
+.peak .peakNav .list .number6{
+    width: 15px;
+    height: 10px;
+    background: url("../images/icon_sprite.png") no-repeat -165px -380px;
+    position: absolute;
+    top: 152px;
+    left: -40px;
+}
+.peak .peakNav .list .number7{
+    width: 15px;
+    height: 10px;
+    background: url("../images/icon_sprite.png") no-repeat -165px -405px;
+    position: absolute;
+    top: 178px;
+    left: -40px;
+}
+.peak .peakNav .list .number8{
+    width: 15px;
+    height: 10px;
+    background: url("../images/icon_sprite.png") no-repeat -165px -429px;
+    position: absolute;
+    top: 201px;
+    left: -40px;
+}
+.peak .peakNav .list .number9{
+    width: 15px;
+    height: 10px;
+    background: url("../images/icon_sprite.png") no-repeat -165px -453px;
+    position: absolute;
+    top: 226px;
+    left: -40px;
+}
+.peak .peakNav .list .number10{
+    width: 15px;
+    height: 10px;
+    background: url("../images/icon_sprite.png") no-repeat -165px -476px;
+    position: absolute;
+    top: 249px;
+    left: -40px;
+}
+
+.mainRight .rank{
+    width: 100%;
+    padding: 10px 0 ;
+    border-bottom:1px dashed #666;
+    overflow: hidden;
+    zoom: 1;
+}
+.mainRight .rank ul li{
+    float: left;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    padding: 5px 5px 5px 0;
+}
+.mainRight .rank ul .noPadding{
+    padding: 5px 0;
+}
+.mainRight .rank ul li a{
+    font-size: 13px;
+    color: #515151;
+}
+
+
+.mainRight .singer{
+    margin-top: 20px;
+}
+.mainRight .singer p{
+    font-size: 18px;
+    height: 25px;
+    line-height: 25px;
+    font-family: "Courier New", Courier, monospace;
+    color: #cacaca;
+}
+.mainRight .singer p a {
+    font-size: 12px;
+    color: #0c8f44;
+}
+.mainRight .singer .listSinger{
+    overflow: hidden;
+    zoom: 1;
+
+}
+.mainRight .singer .listSinger li{
+    width: 50px;
+    float: left;
+    margin: 20px 23px 0 0;
+}
+.mainRight .singer .listSinger li .singerPic img{
+    width:50px;
+    height: 50px;
+}
+.mainRight .singer .listSinger li .singerName{
+    display: inline-block;
+    width: 50px;
+    height:20px ;
+    line-height: 20px;
+    text-align: center;
+    font-size: 8px;
+}
+.mainRight .singer .listSort{
+    overflow: hidden;
+    zoom: 1;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 1px dashed #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.mainRight .singer .listSort li{
+   
+    height: 25px;
+    line-height: 25px;
+    margin: 0 13px 0 0;
+    overflow: hidden;
+    float: left;
+
+}
+
+.mainRight .singer .listSort li a{
+    font-size: 12px;
+    color: #333;
+}
+
+
+
+
+
+
+.mainRight .active{
+    margin: 20px 0;
+    border-bottom: 1px solid #cccccc;
+}
+.mainRight .active p{
+    font-size: 20px;
+    height: 25px;
+    line-height: 25px;
+}
+.mainRight .active ul{
+    margin-top: 20px;
+}
+.mainRight .active ul li{
+    margin: 0 0 10px 0;
+}
+.mainRight .active ul li img{
+    width: 240px;
+    height: 95px;
+}
+.mainRight .active ul li a{
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+
+
+
+
+
